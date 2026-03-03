@@ -1,0 +1,26 @@
+{
+  "Linear Regression": {
+    "MAE": 62444.3106,
+    "RMSE": 81501.7645,
+    "R2": 0.0843
+  },
+  "Decision Tree": {
+    "MAE": 9230.1676,
+    "RMSE": 17583.7561,
+    "R2": 0.9574
+  },
+  "Random Forest": {
+    "MAE": 7765.5451,
+    "RMSE": 14256.9342,
+    "R2": 0.972
+  },
+  "best_model": "Random Forest",
+  "feature_importance": {
+    "Area": 0.052591642423641005,
+    "Item": 0.6235395755714357,
+    "Year": 0.025304289739882434,
+    "average_rain_fall_mm_per_year": 0.08292916067503617,
+    "pesticides_tonnes": 0.10918841458537146,
+    "avg_temp": 0.10644691700463323
+  }
+}
